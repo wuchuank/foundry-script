@@ -10,6 +10,8 @@ contract MyScript is Script {
 
         NFT nft = new NFT("NFT_tutorial", "TUT", "baseUri");
 
+        console.log("NFTContract", address(nft));
+
         vm.stopBroadcast();
     }
 }
